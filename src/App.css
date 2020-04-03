@@ -28,11 +28,11 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-color {
+  background-color: #074c5f;
+}
+
+.Website-background {
+  background-color: #e0e9e9;
+  min-height: 100vh;
 }

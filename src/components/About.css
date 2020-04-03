@@ -1,0 +1,31 @@
+.About {
+	font-family: 'Open-Sans'; 
+	line-height: 1.25; 
+	margin: 0 0 10px; 
+	padding: 0px;
+	font-size: 25px; 
+	text-align: center;
+}
+
+.Circle {
+	border-radius: 50%;
+}
+
+.Name {
+	font-family: 'Enriqueta'; 
+	line-height: 1.25; 
+	margin: 0 0 10px; 
+	font-size: 40px; 
+	font-weight: bold;
+	text-align: center;
+}
+
+.Central {
+	display: inline-block;
+	text-align: left;
+}
+
+hr {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

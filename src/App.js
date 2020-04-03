@@ -4,7 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
 
-
+import './App.css';
 import {
     Collapse,
     Navbar,
@@ -22,7 +22,7 @@ import {
 
 
 import logo from './logo.svg';
-import './App.css';
+
 
 class App extends Component {
   constructor(props) {
@@ -42,8 +42,8 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div>
-          <Navbar color="inverse" light expand="md">
+        <div className="Website-background">
+          <Navbar className="navbar-color" dark expand="md">
               <NavbarBrand href="/">Ansh Roy</NavbarBrand>
               <NavbarToggler onClick={this.toggle} />
               <Collapse isOpen={this.state.isOpen} navbar>
@@ -60,7 +60,7 @@ class App extends Component {
                   </Nav>
               </Collapse>
           </Navbar>
-          <hr />
+          <br/>
           <Switch>
               <Route exact path='/' component={Home} />
               <Route path='/about' component={About} />
