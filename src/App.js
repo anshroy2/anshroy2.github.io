@@ -1,26 +1,75 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import {  BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
+import Projects from './components/Projects';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css';
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    Container,
+    Row,
+    Col,
+    Jumbotron,
+    Button
+} from 'reactstrap';
+
+
+import logo from './logo.svg';
+
+
+class App extends Component {
+  constructor(props) {
+        super(props);
+
+        this.toggle = this.toggle.bind(this);
+        this.state = {
+            isOpen: false
+        };
+    }
+    toggle() {
+        this.setState({
+            isOpen: !this.state.isOpen
+        });
+  }
+
+  render() {
+    return (
+      <Router>
+        <div className="Website-background">
+          <Navbar className="navbar-color" dark expand="md">
+              <NavbarBrand href="/">Ansh Roy</NavbarBrand>
+              <NavbarToggler onClick={this.toggle} />
+              <Collapse isOpen={this.state.isOpen} navbar>
+                  <Nav className="ml-auto" navbar>
+                      <NavItem>
+                          <NavLink href="/about/">About</NavLink>
+                      </NavItem>
+                      <NavItem>
+                           <NavLink href="/projects/">Projects</NavLink>
+                      </NavItem>
+                      <NavItem>
+                          <NavLink href="https://www.youtube.com/watch?v=CBggjyE9P_8">Timelapse</NavLink>
+                      </NavItem>
+                  </Nav>
+              </Collapse>
+          </Navbar>
+          <br/>
+          <Switch>
+              <Route exact path='/' component={Home} />
+              <Route path='/about' component={About} />
+              <Route path='/projects' component={Projects} />
+          </Switch>
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;

@@ -1,0 +1,82 @@
+#profile-pic {
+
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#About-Me {
+	margin: 0 0 5px; 
+	text-align: center;
+}
+
+#Name {
+	font-family: 'Enriqueta'; 
+	line-height: 1.25; 
+	margin: 0 0 5px; 
+	font-size: 60px; 
+	font-weight: bold;
+}
+
+.where-i-go {
+	font-size: 23px; 
+}
+
+#logos-flexbox {
+	display: flex;
+	list-style-type: none;
+	padding-top: 20px;
+	justify-content: space-between;
+	padding-left: 700px;
+	padding-right: 700px;
+	wdith: 200px;
+}
+
+.Social {
+	width: 50px;
+	height: 50px;
+}
+
+.Intern-Description {
+	display: inline;
+	font-family: 'Lato',sans-serif;
+	font-size: 18px;
+	color: grey;
+}
+
+#Company_with_Logo {
+	display: flex;
+}
+
+.Logo {
+	width: 350px;
+	height: 130px;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-shadow: rgba(0,0,0,0.57) -10px 10px 17px 0px;
+	border-radius: 7%;
+	background-color: #ffffff
+}
+
+.Description_bullet_points {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	padding-left: 15px;
+}
+
+
+
+.Internships {
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+#Title {
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+}
+
+br {
+	line-height: 22px;
+}
