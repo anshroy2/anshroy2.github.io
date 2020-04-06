@@ -32,7 +32,7 @@ class About extends Component {
 
 
 		          <div id="Company_with_Logo">
-		            <a href="https://www.gep.com/" target="_blank">
+		            <a href="https://www.gep.com/" target="_blank" rel="noopener noreferrer">
 		              <img alt="GEP" class="Logo" src="https://www4.gep.com/sites/all/themes/gep/images/logo.svg"/>
 		            </a>
 		            <div class="Description_bullet_points">

@@ -33,3 +33,36 @@ hr {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+#Company_with_Logo {
+	display: flex;
+}
+
+.Logo {
+	width: 350px;
+	height: 130px;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-shadow: rgba(0,0,0,0.57) -10px 10px 17px 0px;
+	border-radius: 7%;
+	background-color: #ffffff
+}
+
+.Intern-Description {
+	display: inline;
+	font-family: 'Lato',sans-serif;
+	font-size: 18px;
+	color: grey;
+}
+
+.Internships {	
+	padding-left: 70px;	
+	padding-right: 70px;	
+}
+
+.Description_bullet_points {	
+	display: flex;	
+	flex-direction: column;	
+	text-align: left;	
+	padding-left: 15px;	
+}
