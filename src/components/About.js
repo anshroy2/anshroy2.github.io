@@ -7,13 +7,11 @@ class About extends Component {
     return (
     	<div class="About">
     		<h1 class="Name">Ansh Roy</h1>
-    		<img class="Circle" src={Mypic} alt="Image of Ansh Roy" width="350" height="350"/>
+    		<img class="Circle" src={Mypic} alt="Ansh Roy" width="350" height="350"/>
     		<div>
 	    		<br/>
 	    		
-	    		<text>I'm Ansh Roy, a junior in Computer Engineering at </text>
-	 			<a href="https://illinois.edu/">University of Illinois at Urbana-Champaign</a>
-	 			<text>, graduating in May 2021.</text>
+	    		<text id="personal-description">I'm Ansh Roy, a junior in Computer Engineering at <a href="https://illinois.edu/">University of Illinois at Urbana-Champaign</a>, graduating in May 2021.</text>
 	    		
 	    		<br/>
 	    		
@@ -23,15 +21,11 @@ class About extends Component {
 	    		
 	    		<br/>
 
-	    		<text>This semester, I'm interning at </text>
-	    		<a href="https://www.quicketsolutions.com/qs/">Quicket Solutions</a>
-	    		<text> as a Software Engineering Intern, as a Backend Developer.</text>
+	    		<text>This semester, I'm interning at <a href="https://www.quicketsolutions.com/qs/">Quicket Solutions</a> as a Software Engineering Intern, as a Backend Developer.</text>
 
 	    		<br/>
 
-	    		<text>In Summer 2019, I interned at </text>
-	    		<a href="https://www.gep.com/">GEP Worldwide</a>
-	    		<text> as a Data Science Intern.</text>
+	    		<text>In Summer 2019, I interned at <a href="https://www.gep.com/">GEP Worldwide</a> as a Data Science Intern.</text>
 
 	    		<div class="Internships">
 		          <br/><hr/>
@@ -39,7 +33,7 @@ class About extends Component {
 
 		          <div id="Company_with_Logo">
 		            <a href="https://www.gep.com/" target="_blank">
-		              <img class="Logo" src="https://www4.gep.com/sites/all/themes/gep/images/logo.svg"/>
+		              <img alt="GEP" class="Logo" src="https://www4.gep.com/sites/all/themes/gep/images/logo.svg"/>
 		            </a>
 		            <div class="Description_bullet_points">
 		              <h2 id="Title">Data Science Intern</h2>

@@ -1,13 +1,13 @@
 #profile-pic {
-
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 #About-Me {
-	margin: 0 0 5px; 
-	text-align: center;
+	padding-bottom: 5px;
 }
 
 #Name {
@@ -16,20 +16,25 @@
 	margin: 0 0 5px; 
 	font-size: 60px; 
 	font-weight: bold;
+	text-align: center;
 }
 
 .where-i-go {
 	font-size: 23px; 
+	text-align: center;
 }
 
 #logos-flexbox {
 	display: flex;
 	list-style-type: none;
-	padding-top: 20px;
-	justify-content: space-between;
-	padding-left: 700px;
-	padding-right: 700px;
-	wdith: 200px;
+	justify-content: space-around;
+	margin-left: 800px;
+	margin-right: 800px;
+	
+}
+
+.logos-flexbox-item {
+	text-align: center;
 }
 
 .Social {
@@ -44,10 +49,6 @@
 	color: grey;
 }
 
-#Company_with_Logo {
-	display: flex;
-}
-
 .Logo {
 	width: 350px;
 	height: 130px;
@@ -58,20 +59,6 @@
 	background-color: #ffffff
 }
 
-.Description_bullet_points {
-	display: flex;
-	flex-direction: column;
-	text-align: left;
-	padding-left: 15px;
-}
-
-
-
-.Internships {
-	padding-left: 70px;
-	padding-right: 70px;
-}
-
 #Title {
 	font-weight: bold;
 	font-family: 'Lato', sans-serif;
@@ -79,4 +66,12 @@
 
 br {
 	line-height: 22px;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
 }

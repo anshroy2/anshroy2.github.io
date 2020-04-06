@@ -7,6 +7,10 @@
 	text-align: center;
 }
 
+#personal-description {
+	font-family: 'Aventir Next';
+}
+
 .Circle {
 	border-radius: 50%;
 }
