@@ -65,8 +65,8 @@ hr {
 }
 
 .Internships {	
-	padding-left: 70px;	
-	padding-right: 70px;	
+	max-width: 1500px;
+	margin: auto;	
 }
 
 .Description_bullet_points {	
