@@ -45,15 +45,13 @@ hr {
 	padding-bottom: 10px;
 }
 
-#Company_with_Logo {
+.Company_with_Logo {
 	display: flex;
 }
 
 .Logo {
 	width: 350px;
 	height: 130px;
-	padding-left: 20px;
-	padding-right: 20px;
 	box-shadow: rgba(0,0,0,0.57) -10px 10px 17px 0px;
 	border-radius: 7%;
 	background-color: #ffffff
