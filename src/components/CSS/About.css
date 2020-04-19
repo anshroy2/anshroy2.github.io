@@ -7,9 +7,20 @@
 	text-align: center;
 }
 
-#personal-description {
-	font-family: 'Aventir Next';
+a {
+	text-decoration: none;
+	color: yellow;
 }
+
+
+#personal-description {
+	font-family: 'Enriqueta';
+	max-width: 800px;
+	margin: auto;
+	text-align: left;
+}
+
+
 
 .Circle {
 	border-radius: 50%;

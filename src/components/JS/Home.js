@@ -14,11 +14,8 @@ import React, {Component} from 'react';
     Button
 } from 'reactstrap';*/
 
-import './Home.css'
-//import Mypic from './Ansh.jpg'
-//import Landscape from './Landscape-Ansh.png'
-//import Landscape2 from './nyc-view-mid.png'
-import Landscape3 from './nyc-view-narrow.png'
+import './../CSS/Home.css'
+import Landscape3 from './../Pictures/nyc-view-narrow.png'
 
 class Home extends Component {
   render() {
