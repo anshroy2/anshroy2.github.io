@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './components/JS/Home'
 import About from './components/JS/About'
 import Projects from './components/JS/Projects'
-import Resume from './components/JS/Resume'
 
 import './App.css'
 import {
@@ -48,7 +47,7 @@ class App extends Component {
                   <NavLink href='/projects/'>Projects</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href='/Resume/'>Resume</NavLink>
+                  <NavLink href='/projects/'>Resume</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href='https://www.youtube.com/watch?v=CBggjyE9P_8'>Timelapse</NavLink>
@@ -61,7 +60,6 @@ class App extends Component {
             <Route exact path='/' component={Home} />
             <Route path='/about' component={About} />
             <Route path='/projects' component={Projects} />
-            <Route path='/resume' component={Resume} />
           </Switch>
         </div>
       </Router>
