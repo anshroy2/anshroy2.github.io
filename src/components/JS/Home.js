@@ -8,19 +8,19 @@ class Home extends Component {
     return (
       <div id='About-Me'>
         <h1 id='Name'>Ansh Roy</h1>
-        <br />
-        <br />
+        <h3></h3>
+        <h3></h3>
 
-        <img id='profile-pic' src={Landscape3} alt='Ansh Roy' width='1500' height='500' />
-        <br />
-        <br />
+        <img id='profile-pic' src={Landscape3} alt='Ansh Roy'/>
+        <h3></h3>
+        <h3></h3>
 
         <footer>
           <h2 className='where-i-go'>May 2021</h2>
           <h2 className='where-i-go'>Computer Engineering</h2>
           <h2 className='where-i-go'>University of Illinois at Urbana-Champaign</h2>
-          <br />
-          <br />
+          <h3></h3>
+          <h3></h3>
           <ul id='logos-flexbox'>
             <li className='logos-flexbox-item'>
               <a href='https://www.linkedin.com/in/anshroytx/' target='_blank' rel='noopener noreferrer'>
@@ -39,6 +39,7 @@ class Home extends Component {
               </a>
             </li>
           </ul>
+          <h3 class='mobile-spacing-footer'></h3>
         </footer>
       </div>
 
