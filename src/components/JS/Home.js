@@ -18,26 +18,26 @@ class Home extends Component {
           <br />
 
           <footer>
-            <h2 class='where-i-go'>May 2021</h2>
-            <h2 class='where-i-go'>Computer Engineering</h2>
-            <h2 class='where-i-go'>University of Illinois at Urbana-Champaign</h2>
+            <h2 className='where-i-go'>May 2021</h2>
+            <h2 className='where-i-go'>Computer Engineering</h2>
+            <h2 className='where-i-go'>University of Illinois at Urbana-Champaign</h2>
             <br />
             <br />
             <ul id='logos-flexbox'>
-              <li class='logos-flexbox-item'>
+              <li className='logos-flexbox-item'>
                 <a href='https://www.linkedin.com/in/anshroytx/' target='_blank' rel='noopener noreferrer'>
-                  <img class='Social' alt='Linkedin' src='https://i.imgur.com/za6EkVH.png' />
+                  <img className='Social' alt='Linkedin' src='https://i.imgur.com/za6EkVH.png' />
                 </a>
               </li>
 
-              <li class='logos-flexbox-item'>
+              <li className='logos-flexbox-item'>
                 <a href='https://github.com/anshroy2/' target='_blank' rel='noopener noreferrer'>
-                  <img class='Social' alt='GitHub' src='https://image.flaticon.com/icons/svg/25/25231.svg' />
+                  <img className='Social' alt='GitHub' src='https://image.flaticon.com/icons/svg/25/25231.svg' />
                 </a>
               </li>
-              <li class='logos-flexbox-item'>
+              <li className='logos-flexbox-item'>
                 <a href='mailto:anshroy2@illinois.edu'>
-                  <img class='Social' alt='mailto' src='https://pngimage.net/wp-content/uploads/2018/05/email-logo-vector-png-1.png' />
+                  <img className='Social' alt='mailto' src='https://pngimage.net/wp-content/uploads/2018/05/email-logo-vector-png-1.png' />
                 </a>
               </li>
             </ul>

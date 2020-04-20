@@ -37,7 +37,7 @@ class App extends Component {
         <div className='Website-background'>
           <Navbar className='navbar-color' dark expand='md'>
             <NavbarBrand href='/'>Ansh Roy</NavbarBrand>
-            <NavbarToggler handleronClick={this.toggle} />
+            <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className='ml-auto' navbar>
                 <NavItem>
