@@ -5,9 +5,9 @@ import Mypic from './../Pictures/Ansh.jpg'
 class About extends Component {
   render () {
     return (
-      <div class='About'>
-        <h1 class='Name'>Ansh Roy</h1>
-        <img class='Circle' src={Mypic} alt='Ansh Roy' width='350' height='350' />
+      <div id='about'>
+        <h1 id='name'>Ansh Roy</h1>
+        <img id='about-pic' src={Mypic} alt='Ansh Roy' width='350' height='350' />
         <div>
           <div>
             <p>Computer Engineering</p>
@@ -27,7 +27,7 @@ class About extends Component {
               <a href='https://www.quicketsolutions.com/qs/' class='Links'>
                 Quicket Solutions
               </a>
-              as a Software Engineering Intern, as a Backend Developer. In Summer 2019, I interned at
+              as a Software Engineering Intern. In Summer 2019, I interned at
               <a class='Links' href='https://www.gep.com/'>
                 GEP Worldwide
               </a>
@@ -35,20 +35,74 @@ class About extends Component {
             </p>
           </div>
 
-          <div class='Internships'>
-            <br /><br />
+          <div id='internships'>
+            <hr />
 
-            <div class='Company_with_Logo'>
+            <div class='specific-internship'>
               <a href='https://www.gep.com/' target='_blank' rel='noopener noreferrer'>
-                <img alt='GEP' class='Logo' src='https://www4.gep.com/sites/all/themes/gep/images/logo.svg' />
+                <img alt='GEP' class='logo' src='https://www4.gep.com/sites/all/themes/gep/images/logo.svg' />
               </a>
-              <div class='Description_bullet_points'>
+              <div class='title-description-flexbox'>
                 <h2 id='Title'>Software Engineering Intern</h2>
-                <p class='Intern-Description'>GEP is a provider of supply chain software, focusing on the procure to pay suite (in which <a href='https://www.gep.com/research-reports/gep-leader-in-gartner-magic-quadrant-procure-to-pay-suites'>Gartner</a> ranked them in the top quadrant). I was in the Engineering division of GEP, focusing on the <a href='https://www.smartbygep.com/'>SMART by GEP</a> platform. I worked on two projects in this internship.</p>
+                <p class='intern-description'>
+                  GEP is a provider of supply chain software, focusing on the procure to pay suite
+                  (in which
+                  <a href='https://www.gep.com/research-reports/gep-leader-in-gartner-magic-quadrant-procure-to-pay-suites'>
+                    Gartner
+                  </a>
+                  ranked them in the top quadrant). I was in the Engineering division of GEP, focusing on the
+                  <a href='https://www.smartbygep.com/'>
+                    SMART by GEP
+                  </a>
+                  platform. I worked on two projects in this internship.
+                </p>
 
-                <p class='Intern-Description'>Created a backend service, utilizing Python-Flask as an API. Used string matching algorithms (such as Edit Distance) and synonym lists to match from one set of columns to another.</p>
+                <p class='intern-description'>
+                  Created a backend service, utilizing Python-Flask as an API.
+                  Used string matching algorithms (such as Edit Distance)
+                  and synonym lists to match from one set of columns to another.
+                </p>
 
-                <p class='Intern-Description'>Extracted JSON data from Azure DataLake using Apache Spark onto Azure docker. A script (in Python) ran on a docker that would de-serialize the JSON object and convert into a flat table.</p>
+                <p class='intern-description'>
+                  Extracted JSON data from Azure DataLake using Apache Spark
+                  onto a docker hosted on Azure. A script (in Python) ran on
+                  a docker that would de-serialize the JSON object and convert
+                  into a flat table.
+                </p>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class='specific-internship specific-rev'>
+              <a href='https://www.quicketsolutions.com/qs/' target='_blank' rel='noopener noreferrer'>
+                <img alt='Quicket Solutions' class='logo logo-rev' src='https://www.quicketsolutions.com/qs/wp-content/themes/quicket/images/logo.svg' />
+              </a>
+              <div class='title-description-flexbox'>
+                <h2 id='Title'>Software Engineering Intern</h2>
+                <p class='intern-description'>
+                  Quicket Solutions is a startup that builds cloud-based solutions
+                  for police forces. The full-integrated solutions includes
+                  citations, court and hearings, real-time data analytics, online
+                  payment processing, and many more.
+                </p>
+
+                <p class='intern-description'>
+                  Developed several parsers using ANTLR that can parse through forms
+                  containing important data. The parser developed for one type of
+                  form can then be used to store structured data collected.
+                </p>
+
+                <p class='intern-description'>
+                  Devised a new internal tool that allows non-developers to access
+                  and change features in the dataabse. It also keeps track of who
+                  changed values in the database.
+                </p>
+                <p class='intern-description'>
+                  Introduced several new official forms from scratch that are used
+                  later on the platform to auto-generate documents containing the 
+                  appropriate data.
+                </p>
               </div>
             </div>
           </div>

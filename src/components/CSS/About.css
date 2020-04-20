@@ -1,58 +1,68 @@
-.About {
-	font-family: 'Open-Sans'; 
-	line-height: 1.25; 
-	margin: 0 0 10px; 
+/*nbout - <div> for whole page*/
+#about {
+	font-family: 'Open-Sans';
+	margin-bottom: 10px; 
 	padding: 0px;
 	font-size: 25px; 
 	text-align: center;
 }
 
-a {
-	text-decoration: none;
-	color: black;
+/*name - <h1> for name*/
+#name {
+	font-family: 'Enriqueta'; 
+	line-height: 1.25; 
+	margin-bottom: 10px; 
+	font-size: 40px; 
+	font-weight: bold;
 }
 
-
-#personal-description {
-	font-family: 'Enriqueta';
-	max-width: 800px;
-	margin: auto;
-	text-align: left;
-	color: #575656;
-}
-
-
-
-.Circle {
+/*about-pic - <img>*/
+#about-pic {
 	border-radius: 50%;
 }
 
-.Name {
-	font-family: 'Enriqueta'; 
-	line-height: 1.25; 
-	margin: 0 0 10px; 
-	font-size: 40px; 
-	font-weight: bold;
-	text-align: center;
-}
-
-.Central {
-	display: inline-block;
+/*personal-description - <p> for short description*/
+#personal-description {
+	max-width: 800px;
+	line-height: 1.25;
+	margin: auto;
 	text-align: left;
+	color: black;
 }
 
+/*a - hyperlinks to link to different pages */
+a {
+	text-decoration: none;
+	color: #2156a5;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/*hr - lines between descriptions*/
 hr {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-.Company_with_Logo {
+/*internships - auto scale*/
+#internships {	
+	max-width: 1500px;
+	margin: auto;
+}
+
+/*specific-internship - flexbox*/
+.specific-internship {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 }
 
-.Logo {
+.specific-rev {
+	flex-direction: row-reverse;
+}
+
+/*logo - (may only apply to GEP logo)*/
+.logo {
 	width: 350px;
 	height: 130px;
 	box-shadow: rgba(0,0,0,0.57) -10px 10px 17px 0px;
@@ -60,22 +70,27 @@ hr {
 	background-color: #ffffff
 }
 
-.Intern-Description {
-	display: inline;
-	font-family: 'Lato',sans-serif;
-	font-size: 18px;
-	color: grey;
+.logo-rev {
+	box-shadow: rgba(0,0,0,0.57) 10px 10px 17px 0px;
 }
 
-.Internships {	
-	max-width: 1500px;
-	margin: auto;
-}
-
-.Description_bullet_points {	
+/*title-description-flexbox - flexbox*/
+.title-description-flexbox {	
 	display: flex;	
 	flex-direction: column;
 	flex: 1;
 	text-align: left;	
 	padding-left: 15px;	
+}
+
+.flexbox-reverse {
+
+}
+
+/*intern-description - internship bullet points*/
+.intern-description {
+	display: inline;
+	font-family: 'Lato',sans-serif;
+	font-size: 18px;
+	color: grey;
 }
