@@ -16,9 +16,27 @@
 	font-weight: bold;
 }
 
-/*about-pic - <img>*/
+/*mobile phone - reduce size of image*/
+@media only screen and (max-width: 600px) {
+	#name {
+		font-size: 30px;
+	}
+}
+
+/*about-pic - image*/
 #about-pic {
 	border-radius: 50%;
+	width: 350px;
+	height: 350px;
+}
+
+/*mobile phone - reduce size of image*/
+@media only screen and (max-width: 600px) {
+	#about-pic {
+		border-radius: 50%;
+		width: 250px;
+		height: 250px;
+	}
 }
 
 /*personal-description - <p> for short description*/
@@ -28,6 +46,16 @@
 	margin: auto;
 	text-align: left;
 	color: black;
+}
+
+/*mobile phone - reduce size of personal description*/
+@media only screen and (max-width: 600px) {
+	.below-pic {
+		font-size: 20px;
+	}
+	#personal-description-para {
+		font-size: 18px;
+	}
 }
 
 /*a - hyperlinks to link to different pages */
@@ -68,6 +96,13 @@ hr {
 	box-shadow: rgba(0,0,0,0.57) -10px 10px 17px 0px;
 	border-radius: 7%;
 	background-color: #ffffff
+}
+
+@media only screen and (max-width: 600px) {
+	#gep-logo {
+		object-fit: contain;
+		max-width: 100%;
+	}
 }
 
 .logo-rev {

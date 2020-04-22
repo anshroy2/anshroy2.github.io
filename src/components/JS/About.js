@@ -7,31 +7,31 @@ class About extends Component {
     return (
       <div id='about'>
         <h1 id='name'>Ansh Roy</h1>
-        <img id='about-pic' src={Mypic} alt='Ansh Roy' width='350' height='350' />
+        <img id='about-pic' src={Mypic} alt='Ansh Roy'/>
         <div>
           <div>
-            <p>Computer Engineering</p>
-            <p>UIUC 2021</p>
+            <p className='below-pic'>Computer Engineering</p>
+            <p className='below-pic'>UIUC 2021</p>
           </div>
           <div id='personal-description'>
-            <p>
+            <p id='personal-description-para'>
               I'm Ansh Roy, a junior in Computer Engineering at
               <a href='https://illinois.edu/'>
                 University of Illinois at Urbana-Champaign
               </a>
               , graduating in May 2021. I like to make
               <a href='https://open.spotify.com/user/sev3xp8n5zjxaiuvggeqdqt42?si=55aLI45SSi6hQZBomsBMVg'>
-                 playlists
+                playlists
               </a>
               and watch TV shows in my free time. This semester, I'm interning at
               <a href='https://www.quicketsolutions.com/qs/' className='Links'>
-                Quicket Solutions
+                  Quicket Solutions
               </a>
               as a Software Engineering Intern. In Summer 2019, I interned at
               <a className='Links' href='https://www.gep.com/'>
                 GEP Worldwide
               </a>
-               as a Software Engineering Intern.
+              as a Software Engineering Intern.
             </p>
           </div>
 
@@ -40,7 +40,7 @@ class About extends Component {
 
             <div className='specific-internship'>
               <a href='https://www.gep.com/' target='_blank' rel='noopener noreferrer'>
-                <img alt='GEP' className='logo' src='https://www4.gep.com/sites/all/themes/gep/images/logo.svg' />
+                <img alt='GEP' className='logo' id='gep-logo' src='https://www4.gep.com/sites/all/themes/gep/images/logo.svg' />
               </a>
               <div className='title-description-flexbox'>
                 <h2 id='Title'>Software Engineering Intern</h2>
