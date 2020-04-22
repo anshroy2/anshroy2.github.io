@@ -34,7 +34,7 @@
 @media only screen and (max-width: 600px) {
 	#about-pic {
 		border-radius: 50%;
-		width: 250px;
+		width: auto;
 		height: 250px;
 	}
 }
@@ -98,15 +98,27 @@ hr {
 	background-color: #ffffff
 }
 
+.logo-rev {
+	box-shadow: rgba(0,0,0,0.57) 10px 10px 17px 0px;
+}
+
 @media only screen and (max-width: 600px) {
+	.logo {
+		box-shadow: none;
+		border-radius: 0%;
+		background-color: #deeae9;
+	}
+	.logo-rev {
+		box-shadow: none;
+	}
 	#gep-logo {
 		object-fit: contain;
 		max-width: 100%;
 	}
-}
-
-.logo-rev {
-	box-shadow: rgba(0,0,0,0.57) 10px 10px 17px 0px;
+	#Title {
+		margin-top: 10px;
+		font-size: 25px;
+	}
 }
 
 /*title-description-flexbox - flexbox*/
@@ -124,4 +136,10 @@ hr {
 	font-family: 'Lato',sans-serif;
 	font-size: 18px;
 	color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+	.intern-description {
+		font-size: 15px;
+	}
 }
