@@ -30,15 +30,6 @@
 	width: 50%;
 }
 
-/*mobile phone - reduce size of image*/
-/* @media only screen and (max-width: 600px) {
-	#about-pic {
-		border-radius: 50%;
-		width: auto;
-		height: 250px;
-	}
-} */
-
 /*personal-description - <p> for short description*/
 #personal-description {
 	max-width: 800px;
@@ -100,12 +91,16 @@ hr {
 	box-shadow: rgba(0,0,0,0.57) 10px 10px 17px 0px;
 }
 
+.logo-div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 @media only screen and (max-width: 600px) {
 	.logo {
 		box-shadow: none;
 		border-radius: 0%;
 		background-color: #deeae9;
-		margin: auto;
 	}
 	.logo-rev {
 		box-shadow: none;
@@ -121,7 +116,7 @@ hr {
 }
 
 /*title-description-flexbox - flexbox*/
-.title-description-flexbox {	
+.title-description-flexbox {
 	display: flex;	
 	flex-direction: column;
 	flex: 1;
@@ -131,7 +126,6 @@ hr {
 
 /*intern-description - internship bullet points*/
 .intern-description {
-	display: inline;
 	font-family: 'Lato',sans-serif;
 	font-size: 18px;
 	color: grey;

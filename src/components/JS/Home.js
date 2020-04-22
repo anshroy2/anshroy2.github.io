@@ -39,7 +39,7 @@ class Home extends Component {
               </a>
             </li>
           </ul>
-          <h3 class='mobile-spacing-footer'></h3>
+          <h3></h3>
         </footer>
       </div>
 

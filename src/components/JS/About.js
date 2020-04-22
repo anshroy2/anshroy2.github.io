@@ -39,9 +39,11 @@ class About extends Component {
             <hr />
 
             <div className='specific-internship'>
-              <a href='https://www.gep.com/' target='_blank' rel='noopener noreferrer'>
-                <img alt='GEP' className='logo' id='gep-logo' src='https://www4.gep.com/sites/all/themes/gep/images/logo.svg' />
-              </a>
+              <div className='logo-div'>
+                <a href='https://www.gep.com/' target='_blank' rel='noopener noreferrer'>
+                  <img alt='GEP' className='logo' id='gep-logo' src='https://www4.gep.com/sites/all/themes/gep/images/logo.svg' />
+                </a>
+              </div>
               <div className='title-description-flexbox'>
                 <h2 id='Title'>Software Engineering Intern</h2>
                 <p className='intern-description'>
@@ -75,9 +77,11 @@ class About extends Component {
             <hr />
 
             <div className='specific-internship specific-rev'>
-              <a href='https://www.quicketsolutions.com/qs/' target='_blank' rel='noopener noreferrer'>
-                <img alt='Quicket Solutions' className='logo logo-rev' src='https://www.quicketsolutions.com/qs/wp-content/themes/quicket/images/logo.svg' />
-              </a>
+              <div className='logo-div'>
+                <a href='https://www.quicketsolutions.com/qs/' target='_blank' rel='noopener noreferrer'>
+                  <img alt='Quicket Solutions' className='logo logo-rev' src='https://www.quicketsolutions.com/qs/wp-content/themes/quicket/images/logo.svg' />
+                </a>
+              </div>
               <div className='title-description-flexbox'>
                 <h2 id='Title'>Software Engineering Intern</h2>
                 <p className='intern-description'>
