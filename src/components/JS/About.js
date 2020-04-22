@@ -7,7 +7,7 @@ class About extends Component {
     return (
       <div id='about'>
         <h1 id='name'>Ansh Roy</h1>
-        <img id='about-pic' src={Mypic} alt='Ansh Roy'/>
+        <img id='about-pic' src={Mypic} alt='Ansh Roy' />
         <div>
           <div>
             <p className='below-pic'>Computer Engineering</p>
