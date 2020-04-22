@@ -141,5 +141,7 @@ hr {
 @media only screen and (max-width: 600px) {
 	.intern-description {
 		font-size: 15px;
+		max-width: 350px;
+		margin-bottom: 8px;
 	}
 }
