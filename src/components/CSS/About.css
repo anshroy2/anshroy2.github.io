@@ -16,9 +16,18 @@
 	font-weight: bold;
 }
 
-/*about-pic - <img>*/
+/*mobile phone - reduce size of image*/
+@media only screen and (max-width: 600px) {
+	#name {
+		font-size: 30px;
+	}
+}
+
+/*about-pic - image*/
 #about-pic {
 	border-radius: 50%;
+	max-width: 350px;
+	width: 50%;
 }
 
 /*personal-description - <p> for short description*/
@@ -30,12 +39,20 @@
 	color: black;
 }
 
+/*mobile phone - reduce size of personal description*/
+@media only screen and (max-width: 600px) {
+	.below-pic {
+		font-size: 20px;
+	}
+	#personal-description-para {
+		font-size: 18px;
+	}
+}
+
 /*a - hyperlinks to link to different pages */
 a {
 	text-decoration: none;
 	color: #2156a5;
-	padding-left: 5px;
-	padding-right: 5px;
 }
 
 /*hr - lines between descriptions*/
@@ -74,8 +91,32 @@ hr {
 	box-shadow: rgba(0,0,0,0.57) 10px 10px 17px 0px;
 }
 
+.logo-div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+	.logo {
+		box-shadow: none;
+		border-radius: 0%;
+		background-color: #deeae9;
+	}
+	.logo-rev {
+		box-shadow: none;
+	}
+	#gep-logo {
+		object-fit: contain;
+		max-width: 100%;
+	}
+	#Title {
+		margin-top: 10px;
+		font-size: 25px;
+	}
+}
+
 /*title-description-flexbox - flexbox*/
-.title-description-flexbox {	
+.title-description-flexbox {
 	display: flex;	
 	flex-direction: column;
 	flex: 1;
@@ -85,8 +126,15 @@ hr {
 
 /*intern-description - internship bullet points*/
 .intern-description {
-	display: inline;
 	font-family: 'Lato',sans-serif;
 	font-size: 18px;
 	color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+	.intern-description {
+		font-size: 15px;
+		max-width: 350px;
+		margin-bottom: 8px;
+	}
 }

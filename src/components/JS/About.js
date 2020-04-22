@@ -7,31 +7,31 @@ class About extends Component {
     return (
       <div id='about'>
         <h1 id='name'>Ansh Roy</h1>
-        <img id='about-pic' src={Mypic} alt='Ansh Roy' width='350' height='350' />
+        <img id='about-pic' src={Mypic} alt='Ansh Roy' />
         <div>
           <div>
-            <p>Computer Engineering</p>
-            <p>UIUC 2021</p>
+            <p className='below-pic'>Computer Engineering</p>
+            <p className='below-pic'>UIUC 2021</p>
           </div>
           <div id='personal-description'>
-            <p>
-              I'm Ansh Roy, a junior in Computer Engineering at
+            <p id='personal-description-para'>
+              I'm Ansh Roy, a junior in Computer Engineering at {' '}
               <a href='https://illinois.edu/'>
                 University of Illinois at Urbana-Champaign
               </a>
-              , graduating in May 2021. I like to make
+              , graduating in May 2021. I like to make {' '}
               <a href='https://open.spotify.com/user/sev3xp8n5zjxaiuvggeqdqt42?si=55aLI45SSi6hQZBomsBMVg'>
-                 playlists
+                playlists
               </a>
-              and watch TV shows in my free time. This semester, I'm interning at
+              {' '} and watch TV shows in my free time. This semester, I'm interning at {' '}
               <a href='https://www.quicketsolutions.com/qs/' className='Links'>
-                Quicket Solutions
+                  Quicket Solutions
               </a>
-              as a Software Engineering Intern. In Summer 2019, I interned at
+              {' '} as a Software Engineering Intern. In Summer 2019, I interned at {' '}
               <a className='Links' href='https://www.gep.com/'>
                 GEP Worldwide
               </a>
-               as a Software Engineering Intern.
+              {' '} as a Software Engineering Intern.
             </p>
           </div>
 
@@ -39,22 +39,24 @@ class About extends Component {
             <hr />
 
             <div className='specific-internship'>
-              <a href='https://www.gep.com/' target='_blank' rel='noopener noreferrer'>
-                <img alt='GEP' className='logo' src='https://www4.gep.com/sites/all/themes/gep/images/logo.svg' />
-              </a>
+              <div className='logo-div'>
+                <a href='https://www.gep.com/' target='_blank' rel='noopener noreferrer'>
+                  <img alt='GEP' className='logo' id='gep-logo' src='https://www4.gep.com/sites/all/themes/gep/images/logo.svg' />
+                </a>
+              </div>
               <div className='title-description-flexbox'>
                 <h2 id='Title'>Software Engineering Intern</h2>
                 <p className='intern-description'>
                   GEP is a provider of supply chain software, focusing on the procure to pay suite
-                  (in which
+                  (in which {' '}
                   <a href='https://www.gep.com/research-reports/gep-leader-in-gartner-magic-quadrant-procure-to-pay-suites'>
                     Gartner
                   </a>
-                  ranked them in the top quadrant). I was in the Engineering division of GEP, focusing on the
+                  {' '} ranked them in the top quadrant). I was in the Engineering division of GEP, focusing on the {' '}
                   <a href='https://www.smartbygep.com/'>
                     SMART by GEP
                   </a>
-                  platform. I worked on two projects in this internship.
+                  {' '} platform. I worked on two projects in this internship.
                 </p>
 
                 <p className='intern-description'>
@@ -75,9 +77,11 @@ class About extends Component {
             <hr />
 
             <div className='specific-internship specific-rev'>
-              <a href='https://www.quicketsolutions.com/qs/' target='_blank' rel='noopener noreferrer'>
-                <img alt='Quicket Solutions' className='logo logo-rev' src='https://www.quicketsolutions.com/qs/wp-content/themes/quicket/images/logo.svg' />
-              </a>
+              <div className='logo-div'>
+                <a href='https://www.quicketsolutions.com/qs/' target='_blank' rel='noopener noreferrer'>
+                  <img alt='Quicket Solutions' className='logo logo-rev' src='https://www.quicketsolutions.com/qs/wp-content/themes/quicket/images/logo.svg' />
+                </a>
+              </div>
               <div className='title-description-flexbox'>
                 <h2 id='Title'>Software Engineering Intern</h2>
                 <p className='intern-description'>
