@@ -26,18 +26,18 @@
 /*about-pic - image*/
 #about-pic {
 	border-radius: 50%;
-	width: 350px;
-	height: 350px;
+	max-width: 350px;
+	width: 50%;
 }
 
 /*mobile phone - reduce size of image*/
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
 	#about-pic {
 		border-radius: 50%;
 		width: auto;
 		height: 250px;
 	}
-}
+} */
 
 /*personal-description - <p> for short description*/
 #personal-description {
@@ -62,8 +62,6 @@
 a {
 	text-decoration: none;
 	color: #2156a5;
-	padding-left: 5px;
-	padding-right: 5px;
 }
 
 /*hr - lines between descriptions*/
@@ -107,6 +105,7 @@ hr {
 		box-shadow: none;
 		border-radius: 0%;
 		background-color: #deeae9;
+		margin: auto;
 	}
 	.logo-rev {
 		box-shadow: none;

@@ -15,23 +15,23 @@ class About extends Component {
           </div>
           <div id='personal-description'>
             <p id='personal-description-para'>
-              I'm Ansh Roy, a junior in Computer Engineering at
+              I'm Ansh Roy, a junior in Computer Engineering at {' '}
               <a href='https://illinois.edu/'>
                 University of Illinois at Urbana-Champaign
               </a>
-              , graduating in May 2021. I like to make
+              , graduating in May 2021. I like to make {' '}
               <a href='https://open.spotify.com/user/sev3xp8n5zjxaiuvggeqdqt42?si=55aLI45SSi6hQZBomsBMVg'>
                 playlists
               </a>
-              and watch TV shows in my free time. This semester, I'm interning at
+              {' '} and watch TV shows in my free time. This semester, I'm interning at {' '}
               <a href='https://www.quicketsolutions.com/qs/' className='Links'>
                   Quicket Solutions
               </a>
-              as a Software Engineering Intern. In Summer 2019, I interned at
+              {' '} as a Software Engineering Intern. In Summer 2019, I interned at {' '}
               <a className='Links' href='https://www.gep.com/'>
                 GEP Worldwide
               </a>
-              as a Software Engineering Intern.
+              {' '} as a Software Engineering Intern.
             </p>
           </div>
 
@@ -46,15 +46,15 @@ class About extends Component {
                 <h2 id='Title'>Software Engineering Intern</h2>
                 <p className='intern-description'>
                   GEP is a provider of supply chain software, focusing on the procure to pay suite
-                  (in which
+                  (in which {' '}
                   <a href='https://www.gep.com/research-reports/gep-leader-in-gartner-magic-quadrant-procure-to-pay-suites'>
                     Gartner
                   </a>
-                  ranked them in the top quadrant). I was in the Engineering division of GEP, focusing on the
+                  {' '} ranked them in the top quadrant). I was in the Engineering division of GEP, focusing on the {' '}
                   <a href='https://www.smartbygep.com/'>
                     SMART by GEP
                   </a>
-                  platform. I worked on two projects in this internship.
+                  {' '} platform. I worked on two projects in this internship.
                 </p>
 
                 <p className='intern-description'>
