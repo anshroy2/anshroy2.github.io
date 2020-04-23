@@ -92,7 +92,11 @@ class About extends Component {
                 </p>
 
                 <p className='intern-description'>
-                  Developed several parsers using ANTLR that can parse through forms
+                  Developed several parsers using {' '}
+                  <a href='https://www.antlr.org/' target='_blank' rel='noopener noreferrer'>
+                    ANTLR
+                  </a>
+                  {' '} that can parse through forms
                   containing important data. The parser developed for one type of
                   form can then be used to store structured data collected.
                 </p>
