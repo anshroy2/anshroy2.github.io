@@ -19,8 +19,9 @@ class About extends Component {
             <p id='personal-description-para'>
               I'm Ansh Roy, a senior in Computer Engineering at {UIUC}, 
               graduating in May 2021. I've interned at {QuicketLink} 
-              {' '} and {GepLink} as a Software Engineering Intern. This upcoming
-              summer, I'm interning as an Information Security Intern at {NasdaqLink}
+              {' '} and {GepLink} as a Software Engineering Intern.
+              I'm interning as an Information Security Intern at {' '}
+              {NasdaqLink} this upcoming summer.
             </p>
           </div>
 
