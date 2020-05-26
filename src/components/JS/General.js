@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
-class Link extends Component {
-    render() {
-        return (
-            <a href={this.props.href} className='Links'>
-                {this.props.text}
-            </a>
-        );
-    }
+function Link(props) {
+    return (
+        <a href={props.href} className='Links'>
+            {props.text}
+        </a>
+    );
 }
-
 export { Link };

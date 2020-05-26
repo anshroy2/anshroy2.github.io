@@ -36,43 +36,20 @@ class About extends Component {
   }
 }
 
-class UIUC extends Component {
-  render() {
-    return (
-      <Link href='https://illinois.edu/' text='University of Illinois at Urbana-Champaign'/>
-    );
-  }
+function UIUC() {
+  return <Link href='https://illinois.edu/' text='University of Illinois at Urbana-Champaign'/>;
 }
-class Playlists extends Component {
-  render() {
-    return (
-      <Link href='https://open.spotify.com/user/sev3xp8n5zjxaiuvggeqdqt42?si=55aLI45SSi6hQZBomsBMVg' text='playlists'/>
-    );
-  }
+function Playlists() {
+  return <Link href='https://open.spotify.com/user/sev3xp8n5zjxaiuvggeqdqt42?si=55aLI45SSi6hQZBomsBMVg' text='playlists'/>;
 }
-
-class QuicketLink extends Component {
-  render() {
-    return (
-      <Link href='https://www.quicketsolutions.com/qs/' text='Quicket Solutions'/>
-    );
-  }
+function QuicketLink() {
+  return <Link href='https://www.quicketsolutions.com/qs/' text='Quicket Solutions'/>;
 }
-
-class GepLink extends Component {
-  render() {
-    return (
-      <Link href='https://www.gep.com/' text='GEP Worldwide'/>
-    );
-  }
+function GepLink() {
+  return <Link href='https://www.gep.com/' text='GEP Worldwide'/>;
 }
-
-class NasdaqLink extends Component {
-  render() {
-    return (
-      <Link href='https://www.nasdaq.com/' text='NASDAQ'/>
-    );
-  }
+function NasdaqLink() {
+  return <Link href='https://www.nasdaq.com/' text='NASDAQ'/>;
 }
 
 export default About;
