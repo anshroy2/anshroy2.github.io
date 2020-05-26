@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import {GEP, Quicket} from './Internship.js';
+import {Link} from './General.js';
 import './../CSS/About.css';
 import Mypic from './../Pictures/Ansh.jpg';
-import {GEP, Quicket} from './Internship.js';
 
 class About extends Component {
   render () {
@@ -16,23 +17,10 @@ class About extends Component {
           </div>
           <div id='personal-description'>
             <p id='personal-description-para'>
-              I'm Ansh Roy, a junior in Computer Engineering at {' '}
-              <a href='https://illinois.edu/'>
-                University of Illinois at Urbana-Champaign
-              </a>
-              , graduating in May 2021. I like to make {' '}
-              <a href='https://open.spotify.com/user/sev3xp8n5zjxaiuvggeqdqt42?si=55aLI45SSi6hQZBomsBMVg'>
-                playlists
-              </a>
-              {' '} and watch TV shows in my free time. This semester, I'm interning at {' '}
-              <a href='https://www.quicketsolutions.com/qs/' className='Links'>
-                  Quicket Solutions
-              </a>
-              {' '} as a Software Engineering Intern. In Summer 2019, I interned at {' '}
-              <a className='Links' href='https://www.gep.com/'>
-                GEP Worldwide
-              </a>
-              {' '} as a Software Engineering Intern.
+              I'm Ansh Roy, a senior in Computer Engineering at <UIUC/>, 
+              graduating in May 2021. I've interned at <QuicketLink/> 
+              {' '} and <GepLink/> as a Software Engineering Intern. This upcoming
+              summer, I'm interning as an Information Security Intern at <NasdaqLink/>
             </p>
           </div>
 
@@ -45,6 +33,45 @@ class About extends Component {
         </div>
       </div>
     )
+  }
+}
+
+class UIUC extends Component {
+  render() {
+    return (
+      <Link href='https://illinois.edu/' text='University of Illinois at Urbana-Champaign'/>
+    );
+  }
+}
+class Playlists extends Component {
+  render() {
+    return (
+      <Link href='https://open.spotify.com/user/sev3xp8n5zjxaiuvggeqdqt42?si=55aLI45SSi6hQZBomsBMVg' text='playlists'/>
+    );
+  }
+}
+
+class QuicketLink extends Component {
+  render() {
+    return (
+      <Link href='https://www.quicketsolutions.com/qs/' text='Quicket Solutions'/>
+    );
+  }
+}
+
+class GepLink extends Component {
+  render() {
+    return (
+      <Link href='https://www.gep.com/' text='GEP Worldwide'/>
+    );
+  }
+}
+
+class NasdaqLink extends Component {
+  render() {
+    return (
+      <Link href='https://www.nasdaq.com/' text='NASDAQ'/>
+    );
   }
 }
 
