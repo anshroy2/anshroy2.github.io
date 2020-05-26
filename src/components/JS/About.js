@@ -17,10 +17,10 @@ class About extends Component {
           </div>
           <div id='personal-description'>
             <p id='personal-description-para'>
-              I'm Ansh Roy, a senior in Computer Engineering at <UIUC/>, 
-              graduating in May 2021. I've interned at <QuicketLink/> 
-              {' '} and <GepLink/> as a Software Engineering Intern. This upcoming
-              summer, I'm interning as an Information Security Intern at <NasdaqLink/>
+              I'm Ansh Roy, a senior in Computer Engineering at {UIUC}, 
+              graduating in May 2021. I've interned at {QuicketLink} 
+              {' '} and {GepLink} as a Software Engineering Intern. This upcoming
+              summer, I'm interning as an Information Security Intern at {NasdaqLink}
             </p>
           </div>
 
@@ -36,20 +36,19 @@ class About extends Component {
   }
 }
 
-function UIUC() {
-  return <Link href='https://illinois.edu/' text='University of Illinois at Urbana-Champaign'/>;
+const Linkobj = 
+{
+  UIUC: {href: 'https://illinois.edu/', text: 'University of Illinois at Urbana-Champaign'},
+  Playlists: {href: 'https://open.spotify.com/user/sev3xp8n5zjxaiuvggeqdqt42?si=55aLI45SSi6hQZBomsBMVg', text: 'playlists'},
+  Quicket: {href: 'https://www.quicketsolutions.com/qs/', text: 'Quicket Solutions'},
+  GEP: {href: 'https://www.gep.com/', text: 'GEP Worldwide'},
+  NASDAQ: {href: 'https://www.nasdaq.com/', text: 'NASDAQ'}
 }
-function Playlists() {
-  return <Link href='https://open.spotify.com/user/sev3xp8n5zjxaiuvggeqdqt42?si=55aLI45SSi6hQZBomsBMVg' text='playlists'/>;
-}
-function QuicketLink() {
-  return <Link href='https://www.quicketsolutions.com/qs/' text='Quicket Solutions'/>;
-}
-function GepLink() {
-  return <Link href='https://www.gep.com/' text='GEP Worldwide'/>;
-}
-function NasdaqLink() {
-  return <Link href='https://www.nasdaq.com/' text='NASDAQ'/>;
-}
+
+const UIUC = <Link info={Linkobj.UIUC} />;
+const QuicketLink = <Link info={Linkobj.Quicket}/>;
+const GepLink = <Link info={Linkobj.GEP}/>;
+const NasdaqLink = <Link info={Linkobj.NASDAQ}/>;
+const Playlists =  <Link info={Linkobj.Playlists}/>;
 
 export default About;

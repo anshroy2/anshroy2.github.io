@@ -52,8 +52,8 @@ class GEP extends Component {
         const first = 
         (<p className='intern-description'>
             GEP is a provider of supply chain software, focusing on the procure to pay suite
-            (in which <Gartner/> ranked them in the top quadrant). I was in the Engineering 
-            division of GEP, focusing on the <SMARTbyGEP/> platform. I worked on two projects 
+            (in which {Gartner} ranked them in the top quadrant). I was in the Engineering 
+            division of GEP, focusing on the {SMARTbyGEP} platform. I worked on two projects 
             in this internship.
         </p>);
         const second = 
@@ -86,19 +86,13 @@ class GEP extends Component {
     }
 }
 
-function Gartner() {
-    return <Link 
-    href='https://www.gep.com/research-reports/gep-leader-in-gartner-magic-quadrant-procure-to-pay-suites'
-    text='Gartner'
-    />;
+const GEPobj = {
+    Gartner: {href: 'https://www.gep.com/research-reports/gep-leader-in-gartner-magic-quadrant-procure-to-pay-suites', text: 'Gartner'},
+    SMART: {href: 'https://www.smartbygep.com/', text: 'SMART by GEP'}
 }
 
-function SMARTbyGEP() {
-    return <Link
-        href='https://www.smartbygep.com/'
-        text='SMART by GEP'
-        />;
-}
+const Gartner = <Link info={GEPobj.Gartner}/>
+const SMARTbyGEP = <Link info={GEPobj.SMART}/>
 
 class Quicket extends Component {
     descriptions(props) {
