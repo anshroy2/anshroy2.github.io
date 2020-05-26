@@ -6,9 +6,16 @@ class Internship extends Component {
         const image = 
         (<div className='logo-div'>
             <a href={this.props.website} target='_blank' rel='noopener noreferrer'>
-                <img alt={this.props.company_name} className='logo' id='gep-logo' src={this.props.logo} />
+                <img alt={this.props.company_name} className='logo' src={this.props.logo} />
             </a>
         </div>);
+        const image_rev = 
+        (<div className='logo-div'>
+            <a href={this.props.website} target='_blank' rel='noopener noreferrer'>
+                <img alt={this.props.company_name} className='logo logo-rev' src={this.props.logo} />
+            </a>
+        </div>);
+
         const desc = 
         (<div className='title-description-flexbox'>
             <h2 id='Title'>{this.props.position}</h2>
@@ -27,19 +34,8 @@ class Internship extends Component {
         else {
             return (
                 <div className='specific-internship specific-rev'>
-                  <div className='logo-div'>
-                    <a href={this.props.website} target='_blank' rel='noopener noreferrer'>
-                      <img alt={this.props.company_name} className='logo' id='gep-logo' src={this.props.logo} />
-                    </a>
-                  </div>
-                  <div className='title-description-flexbox'>
-                    <h2 id='Title'>{this.props.position}</h2>
-                    <React.Fragment>
-                        {this.props.description}
-                    </React.Fragment>
-                    
-                    
-                  </div>
+                  {image_rev}
+                  {desc}
                 </div>                
             );
         }
