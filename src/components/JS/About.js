@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {GEP, Quicket} from './Internship.js';
+import {GEP, Quicket, NASDAQ} from './Internship.js';
 import {Link} from './General.js';
 import './../CSS/About.css';
 import Mypic from './../Pictures/Ansh.jpg';
@@ -18,18 +18,23 @@ class About extends Component {
           <div id='personal-description'>
             <p id='personal-description-para'>
               I'm Ansh Roy, a senior in Computer Engineering at {UIUC}, 
-              graduating in May 2021. I've interned at {QuicketLink} 
-              {' '} and {GepLink} as a Software Engineering Intern.
-              I'm interning as an Information Security Intern at {' '}
-              {NasdaqLink} this upcoming summer.
+              graduating in May 2021. I've interned at {NasdaqLink}, {' '}
+              {QuicketLink}, and {GepLink} as a Software Engineering Intern.
+              I've also created a Spotify Statistics website, where one can 
+              log in and see their top artists and songs played.
+              I'm now looking for full time opportunities, preferrably in 
+              back-end, or full stack.
             </p>
           </div>
 
           <div id='internships'>
-            <hr />
-            <GEP/>
+            <hr/>
+            <NASDAQ/>
             <hr/>
             <Quicket/>
+            <hr/>
+            <GEP/>
+            <hr/>
           </div>
         </div>
       </div>
@@ -39,7 +44,7 @@ class About extends Component {
 
 const Linkobj = 
 {
-  UIUC: {href: 'https://illinois.edu/', text: 'University of Illinois at Urbana-Champaign'},
+  UIUC: {href: 'https://illinois.edu/', text: 'University of Illinois'},
   Playlists: {href: 'https://open.spotify.com/user/sev3xp8n5zjxaiuvggeqdqt42?si=55aLI45SSi6hQZBomsBMVg', text: 'playlists'},
   Quicket: {href: 'https://www.quicketsolutions.com/qs/', text: 'Quicket Solutions'},
   GEP: {href: 'https://www.gep.com/', text: 'GEP Worldwide'},

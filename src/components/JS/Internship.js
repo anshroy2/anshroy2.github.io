@@ -132,6 +132,51 @@ class Quicket extends Component {
     }
 }
 
+class NASDAQ extends Component {
+    descriptions(props) {
+        const first = 
+        (<p className='intern-description'>
+        NASDAQ is primarily a stock exchange, that engages in trading, 
+        clearing, exchange technology, security, and much more. I interned in the 
+        security department, on the Governance and Compliance team.
+      </p>);
+        const second = 
+        (<p className='intern-description'>
+         Designed and implemented a new automated system for cloud
+         exception management. Through here, cloud users can utilize
+         the system to get approval for cloud exceptions. This way, 
+         the system can keep track of exceptions.
+      </p>);
+        const third =
+        (<p className='intern-description'>
+        {/* The system consisted of utilizing Jira Service Desk for users 
+        to file for tickets, and for management to appropriately respond
+        and aprove requests. I launched a backend service utilizing AWS 
+        API Gateway, AWS Lambda, and AWS Secrets Manager to encrypt a JSON 
+        object into a JWT key. */}
+      </p>);
+        const fourth = 
+        (<p className='intern-description'>
+        To ensure integrity of this service, I programmed the backend service 
+        in Terraform, and utilized Linux CLI and CI/CD to launch the Terraform 
+        code to AWS.
+      </p>);
+      return [first,second,third,fourth];
+
+    }
+    render() {
+        return (
+            <Internship 
+            website='https://www.nasdaq.com/' 
+            company_name='NASDAQ' 
+            logo='https://www.nasdaq.com/themes/nsdq/dist/assets/images/logo.svg'
+            position='Software Engineering Intern'
+            description={this.descriptions(this.props)}
+            rev='rev'/>
+        );
+    }
+}
+
 export {
-    GEP,Quicket
+    GEP,Quicket, NASDAQ
 };
