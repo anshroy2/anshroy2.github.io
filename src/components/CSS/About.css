@@ -1,8 +1,7 @@
 /*nbout - <div> for whole page*/
 #about {
 	font-family: 'Open-Sans';
-	margin-bottom: 10px; 
-	padding: 0px;
+	padding-bottom: 10px;
 	font-size: 25px; 
 	text-align: center;
 }
