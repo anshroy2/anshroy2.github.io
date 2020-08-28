@@ -49,9 +49,6 @@ class App extends Component {
                 <NavItem>
                   <NavLink href='https://drive.google.com/open?id=1R8utxlrNQ5E1WLIavbSVX2wQyhCge2Uz'>Resume</NavLink>
                 </NavItem>
-                <NavItem>
-                  <NavLink href='https://www.youtube.com/watch?v=CBggjyE9P_8'>Timelapse</NavLink>
-                </NavItem>
               </Nav>
             </Collapse>
           </Navbar>
