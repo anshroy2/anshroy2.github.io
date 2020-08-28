@@ -49,9 +49,6 @@ class App extends Component {
                 <NavItem>
                   <NavLink href='https://github.com/anshroy2/anshroy2.github.io/raw/master/src/components/PDFs/Ansh%20Roy%20Resume.pdf'>Resume</NavLink>
                 </NavItem>
-                <NavItem>
-                  <NavLink href='https://www.youtube.com/watch?v=CBggjyE9P_8'>Timelapse</NavLink>
-                </NavItem>
               </Nav>
             </Collapse>
           </Navbar>

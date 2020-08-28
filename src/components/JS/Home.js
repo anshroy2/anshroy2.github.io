@@ -23,7 +23,7 @@ class Home extends Component {
           <h3></h3>
           <ul id='logos-flexbox'>
             <li className='logos-flexbox-item'>
-              <a href='https://www.linkedin.com/in/anshroytx/' target='_blank' rel='noopener noreferrer'>
+              <a href='https://www.linkedin.com/in/anshroy2/' target='_blank' rel='noopener noreferrer'>
                 <img className='Social' alt='Linkedin' src='https://i.imgur.com/za6EkVH.png' />
               </a>
             </li>
