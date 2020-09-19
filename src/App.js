@@ -47,12 +47,11 @@ class App extends Component {
                   <NavLink href='/projects/'>Projects</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href='https://github.com/anshroy2/anshroy2.github.io/raw/master/src/components/PDFs/Ansh%20Roy%20Resume.pdf'>Resume</NavLink>
+                  <NavLink href='https://drive.google.com/open?id=1R8utxlrNQ5E1WLIavbSVX2wQyhCge2Uz'>Resume</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>
           </Navbar>
-          <br />
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/about' component={About} />
