@@ -30,7 +30,7 @@ class Home extends Component {
 
             <li className='logos-flexbox-item'>
               <a href='https://github.com/anshroy2/' target='_blank' rel='noopener noreferrer'>
-                <img className='Social' alt='GitHub' src='https://image.flaticon.com/icons/svg/25/25231.svg' />
+                <img className='Social' alt='GitHub' src='https://pngimg.com/uploads/github/github_PNG45.png' />
               </a>
             </li>
             <li className='logos-flexbox-item'>

@@ -74,7 +74,7 @@ class GEP extends Component {
             <Internship 
             website='https://www.gep.com/' 
             company_name='GEP' 
-            logo='https://www4.gep.com/sites/all/themes/gep/images/logo.svg'
+            logo='https://www.gep.com/sites/all/themes/gep/images/logo.svg'
             position='Software Engineering Intern'
             description={this.descriptions(this.props)}
             rev='rev'/>
