@@ -47,7 +47,7 @@ class App extends Component {
                   <NavLink href='/projects/'>Projects</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href='https://drive.google.com/file/d/1Ajo6ATNz5ZzSR3cdHldHqHkGpAo_JSrg/view?usp=sharing'>Resume</NavLink>
+                  <NavLink href='https://drive.google.com/file/d/1HlM0QvvibdFMoyQKqRwrDOJE-2YuWuzk/view?usp=sharing'>Resume</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>

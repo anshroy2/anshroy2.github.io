@@ -86,6 +86,10 @@ hr {
 	background-color: #ffffff
 }
 
+.img-extend {
+	height: 174px !important;
+}
+
 .logo-rev {
 	box-shadow: rgba(0,0,0,0.57) 10px 10px 17px 0px;
 }

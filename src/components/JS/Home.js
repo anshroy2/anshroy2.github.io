@@ -16,9 +16,9 @@ class Home extends Component {
         <h3></h3>
 
         <footer>
-          <h2 className='where-i-go'>May 2021</h2>
-          <h2 className='where-i-go'>Computer Engineering</h2>
-          <h2 className='where-i-go'>University of Illinois at Urbana-Champaign</h2>
+          <h2 className='where-i-go'>Software Engineer</h2>
+          <h2 className='where-i-go'>Visa</h2>
+          <h2 className='where-i-go'>Computer Engineering @ UIUC 2021</h2>
           <h3></h3>
           <h3></h3>
           <ul id='logos-flexbox'>
@@ -34,8 +34,8 @@ class Home extends Component {
               </a>
             </li>
             <li className='logos-flexbox-item'>
-              <a href='mailto:anshroy2@illinois.edu'>
-                <img className='Social' alt='mailto' src='https://pngimage.net/wp-content/uploads/2018/05/email-logo-vector-png-1.png' />
+              <a href='mailto:anshroytwo@gmail.com'>
+                <img className='Social' alt='Mail To' src='https://banner2.cleanpng.com/20180604/pqv/kisspng-airrotec-microsoft-powerpoint-pretty-good-privacy-mail-icon-5b15795e538135.1746331615281339823421.jpg' />
               </a>
             </li>
           </ul>

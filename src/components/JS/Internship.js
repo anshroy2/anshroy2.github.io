@@ -6,7 +6,7 @@ class Internship extends Component {
         const image = 
         (<div className='logo-div'>
             <a href={this.props.website} target='_blank' rel='noopener noreferrer'>
-                <img alt={this.props.company_name} className='logo' src={this.props.logo} />
+                <img alt={this.props.company_name} className={'logo ' + this.props.imgExtend} src={this.props.logo} />
             </a>
         </div>);
         const image_rev = 
@@ -74,10 +74,9 @@ class GEP extends Component {
             <Internship 
             website='https://www.gep.com/' 
             company_name='GEP' 
-            logo='https://www.gep.com/sites/all/themes/gep/images/logo.svg'
+            logo='https://www.gep.com/themes/custom/geptheme/gep-logo-color.svg'
             position='Software Engineering Intern'
-            description={this.descriptions(this.props)}
-            rev='rev'/>
+            description={this.descriptions(this.props)}/>
         );
     }
 }
@@ -125,9 +124,10 @@ class Quicket extends Component {
             <Internship 
             website='https://www.quicketsolutions.com/qs/' 
             company_name='Quicket Solutions' 
-            logo='https://www.quicketsolutions.com/qs/wp-content/themes/quicket/images/logo.svg'
+            logo='https://www.quicketsolutions.com/wp-content/uploads/2021/03/NewLogo-Color.svg'
             position='Software Engineering Intern'
-            description={this.descriptions(this.props)}/>
+            description={this.descriptions(this.props)}
+            rev='rev'/>
         );
     }
 }
@@ -171,6 +171,68 @@ class NASDAQ extends Component {
             company_name='NASDAQ' 
             logo='https://www.nasdaq.com/themes/nsdq/dist/assets/images/logo.svg'
             position='Software Engineering Intern'
+            description={this.descriptions(this.props)}/>
+        );
+    }
+}
+
+class Visa extends Component {
+    descriptions(props) {
+        const first = 
+        (<p className='intern-description'>
+        Visa is primarily a financial services company that focuses on payment processing, 
+        transaction clearing, digital technology, security, and much more. I work as a Full 
+        Stack Software Engineer, revolutionizing outdated procedures into web-based applications.
+      </p>);
+        const second = 
+        (<p className='intern-description'>
+         Revamped an internal financial system, streamlining the user experience by 
+         implementing features that allow seamless uploading and validation of pricing data. 
+         This not only facilitated more efficient financial operations but also ensured data accuracy and compliance.
+      </p>);
+        const third =
+        (<p className='intern-description'>
+        Revitalized a widely utilized project template, refining and expanding its capabilities to 
+        empower multiple teams in initiating and developing their applications.
+        The enhanced starter kit became a cornerstone for various projects, fostering a standardized and 
+        accelerated application development process across the organization.
+      </p>);
+        const fourth = 
+        (<p className='intern-description'>
+        Led the charge on two digital transformation initiatives aimed at eliminating manual processes 
+        previously managed through Excel and email communications. The implementation of automated workflows 
+        not only significantly reduced error rates but also enhanced overall process efficiency, saving time and resources.
+      </p>);
+        const fifth = 
+        (<p className='intern-description'>
+        Assumed a pivotal role in automating substantial portions of Virtual Machine (VM) management 
+        and Continuous Integration/Continuous Deployment (CI/CD) processes. The automation efforts 
+        contributed to heightened efficiency and reliability in development and deployment workflows, 
+        enabling the team to respond swiftly to changing project requirements.
+        </p>);
+        const sixth = 
+        (<p className='intern-description'>
+        Embarked on a journey into the cutting-edge FastAPI framework, leveraging its capabilities to 
+        craft a foundational backend application. The exploration of this new technology not only expanded 
+        the team's skill set but also laid the groundwork for future projects, embracing modern development 
+        practices and ensuring scalability and maintainability in the evolving technological landscape.
+        </p>);
+        const seventh = 
+        (<p className='intern-description'>
+        I work primarily with Angular and Spring Boot, although have delved into using Python.
+        </p>
+        );
+      return [first,second,third,fourth, fifth, sixth, seventh];
+
+    }
+    render() {
+        return (
+            <Internship 
+            website='https://www.visa.com/' 
+            company_name='Visa'
+            imgExtend='img-extend'
+            logo='https://1000logos.net/wp-content/uploads/2021/11/VISA-logo.png'
+            position='Software Engineer'
             description={this.descriptions(this.props)}
             rev='rev'/>
         );
@@ -178,5 +240,5 @@ class NASDAQ extends Component {
 }
 
 export {
-    GEP,Quicket, NASDAQ
+    GEP,Quicket, NASDAQ, Visa
 };
